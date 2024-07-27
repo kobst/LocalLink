@@ -14,6 +14,9 @@
 		E79FD1962C5576F100284569 /* LocalLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD1952C5576F100284569 /* LocalLinkTests.swift */; };
 		E79FD1A02C5576F100284569 /* LocalLinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD19F2C5576F100284569 /* LocalLinkUITests.swift */; };
 		E79FD1A22C5576F100284569 /* LocalLinkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD1A12C5576F100284569 /* LocalLinkUITestsLaunchTests.swift */; };
+		E79FD1AF2C557B2700284569 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD1AE2C557B2700284569 /* LoginView.swift */; };
+		E79FD1B12C557B4400284569 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD1B02C557B4400284569 /* RegistrationView.swift */; };
+		E79FD1B32C557BFD00284569 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FD1B22C557BFD00284569 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E79FD19B2C5576F100284569 /* LocalLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79FD19F2C5576F100284569 /* LocalLinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLinkUITests.swift; sourceTree = "<group>"; };
 		E79FD1A12C5576F100284569 /* LocalLinkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLinkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E79FD1AE2C557B2700284569 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E79FD1B02C557B4400284569 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		E79FD1B22C557BFD00284569 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				E79FD1862C5576EF00284569 /* ContentView.swift */,
 				E79FD1882C5576F100284569 /* Assets.xcassets */,
 				E79FD18A2C5576F100284569 /* Preview Content */,
+				E79FD1AE2C557B2700284569 /* LoginView.swift */,
+				E79FD1B02C557B4400284569 /* RegistrationView.swift */,
+				E79FD1B22C557BFD00284569 /* ImagePicker.swift */,
 			);
 			path = LocalLink;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79FD1AF2C557B2700284569 /* LoginView.swift in Sources */,
 				E79FD1872C5576EF00284569 /* ContentView.swift in Sources */,
+				E79FD1B32C557BFD00284569 /* ImagePicker.swift in Sources */,
 				E79FD1852C5576EF00284569 /* LocalLinkApp.swift in Sources */,
+				E79FD1B12C557B4400284569 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
